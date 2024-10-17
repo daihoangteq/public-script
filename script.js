@@ -1,2 +1,4 @@
-const btnAll = document.querySelectorAll("button");
-btnAll.forEach(item => item.addEventListener("click", () => alert("Ok script")))
+const btnCheck = document.querySelector(".check");
+btnCheck.addEventListener("click", () => {
+    alert("Check script cdn")
+})
